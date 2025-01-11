@@ -319,13 +319,119 @@ main .hero-content{
 }
 img {
     border-radius: 5%;
-  }
-
-
-
-.cards-content{
-    width: 744px;
-    height: 290px;
 }
 
+/* donate design */
+.donate{
+    text-align: center;
+    margin-top: 80px;
+}
+.donate-title{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+
+}
+.donate-description{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    width: 1104px;
+    margin-top: 15px;
+}
+.donate-items{ 
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 1071px;
+    height: 128px;
+    /* gap: 24px; */
+    margin: 24px;
     
+}
+.donate-titles{
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.donat-amount{
+    box-sizing: border-box;
+    gap: 24px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;  
+    padding: 40px 24px;
+    cursor: pointer;
+    transition: 0.2s backgroun;
+
+}
+.box:hover{
+    background-color: rgb(198, 228, 214);
+
+}
+
+.donate-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1032px;
+    height: 64px;
+    padding: 40px;
+}
+
+.form{
+    box-sizing: border-box;
+    text-align: center;
+    border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+    background: rgb(255, 255, 255);
+    
+    
+}
+
+.Subscribe{
+    position: absolute;
+    border-radius: 24px;
+    background: rgb(198, 228, 214);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 64;
+    padding: 80px 100px 80px 100px;   
+    text-align: center;
+    
+
+}
+
+.Subscribe-titless{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;   
+}
+.Subscribe-descriptions{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    
+
+}
