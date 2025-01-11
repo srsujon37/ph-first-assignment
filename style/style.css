@@ -383,25 +383,56 @@ img {
 }
 
 .donate-form{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 1032px;
-    height: 64px;
-    padding: 40px;
+    margin-top: 50px;
+    margin-bottom: 80px;
 }
 
-.form{
+.donate-form input{
+    box-sizing: border-box;
+    border-bottom: 1px solid rgba(248, 248, 248, 0.979);
+    background: rgb(255, 255, 255);
+    /* color: rgba(14, 14, 14, 0.3); */
+    /* color: rgba(14, 14, 14, 0.3); */
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 18px 200px 18px 200px;
+    margin: 20px;
+    outline: none;
+    
+}
+
+.donate-form button{
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.1);
+    border-radius: 8px;
+    padding: 17px 34px 17px 34px;
+    background: rgb(0, 106, 80);
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 25px;
+}
+
+/* .form{
     box-sizing: border-box;
     text-align: center;
     border-bottom: 1px solid rgba(14, 14, 14, 0.15);
     background: rgb(255, 255, 255);
     
     
-}
+} */
 
+/* Subscribe design */
 .Subscribe{
-    position: absolute;
+    /* position: absolute; */
     border-radius: 24px;
     background: rgb(198, 228, 214);
     gap: 64;
@@ -418,7 +449,8 @@ img {
     font-weight: 700;
     line-height: 48px;
     letter-spacing: 0%;
-    text-align: center;   
+    text-align: center;
+
 }
 .Subscribe p{
     color: rgba(14, 14, 14, 0.7);
@@ -428,6 +460,7 @@ img {
     line-height: 24px;
     letter-spacing: 0%;
     text-align: center;
+    margin: 20px;
     
 }
 
@@ -442,7 +475,7 @@ img {
     letter-spacing: 0%;
     text-align: left;
     border: none;
-    padding: 18px 40px 18px 40px;
+    padding: 18px 140px 18px 140px;
     margin: none;
     outline: none;
     background: #ffffff;
@@ -464,4 +497,40 @@ img {
     border: none;
     margin: none;
 
+}
+
+.Subscribe p p{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: center;   
+}
+
+
+footer{
+    
+    text-align: center;
+    background-color: #ffffff;
+    gap: 32;
+    padding: 50px 160px 50px 160px;
+
+}
+
+footer h2{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding: 25px;
+}
+footer img{
+    /* margin-left: 20px; */
+    gap: 23;
+    padding: 20px 10px; 
 }
