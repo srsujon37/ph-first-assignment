@@ -7,7 +7,9 @@
 *{
     padding: 0px;
     margin: 0px;
+    /* font-family: Fira Sans; */
 }
+
 
 /* shared style */
 .btn-primary{
@@ -166,4 +168,70 @@ main .hero-content{
     letter-spacing: 0%;
     text-align: left;   
     margin-top: 15px;
+}
+
+/* vision section style */
+
+.vision-skills{
+    display: flex;
+    gap: 24px;
+    margin-top: 32px;
+    margin-bottom: 80px;
+}
+.vision-items{
+    padding: 32px;
+    border-radius: 16px;
+    
+}
+.one{
+    background-color: rgba(84, 144, 245, 0.2);
+}
+.two{
+    background-color: rgb(198, 228, 214);
+}
+.three{
+    background-color: rgb(247, 235, 207);
+}
+.btn-sky{
+    padding: 11px 20px;
+    margin-top: 24px;
+    border: none;
+    border-radius: 8px;
+    background: rgb(84, 144, 245);
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.btn-green{
+    padding: 11px 20px 11px 20px;
+    margin-top: 24px;
+    border-radius: 8px;
+    border: none;
+    background: rgb(9, 161, 92);
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+
+}
+.btn-yellow{
+    padding: 11px 20px 11px 20px;
+    margin-top: 24px;
+    border-radius: 8px;
+    border: none;
+    background: rgb(255, 194, 57);
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
 }
