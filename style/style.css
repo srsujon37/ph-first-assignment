@@ -8,6 +8,7 @@
     padding: 0px;
     margin: 0px;
     /* font-family: Fira Sans; */
+    /* background-color: #f5f5f5; */
 }
 
 
@@ -481,6 +482,7 @@ img {
     gap: 64;
     padding: 80px 100px 80px 100px;   
     text-align: center;
+    margin-bottom: 80px;
     
 
 }
@@ -554,9 +556,8 @@ img {
 
 
 footer{
-    
-    text-align: center;
     background-color: #ffffff;
+    text-align: center;  
     gap: 32;
     padding: 50px 160px 50px 160px;
 
@@ -571,9 +572,11 @@ footer h2{
     letter-spacing: 0%;
     text-align: center;
     padding: 25px;
+    background-color: #ffffff;
 }
 footer img{
     /* margin-left: 20px; */
     gap: 23;
     padding: 20px 10px; 
+
 }
